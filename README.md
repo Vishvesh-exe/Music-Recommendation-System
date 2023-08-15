@@ -12,3 +12,8 @@ Weights to different features are given using the TF-IDF(Term Frequency-Inverse 
 
 # References
 The Application was built using resources of https://towardsdatascience.com/part-iii-building-a-song-recommendation-system-with-spotify-cf76b52705e7
+
+# DEMO
+<img width="960" alt="home" src="https://github.com/Vishvesh-exe/Music-Recommendation-System/assets/76891567/d4737e9a-1f9d-4e39-8d07-c712ccc0517f">
+<img width="960" alt="about" src="https://github.com/Vishvesh-exe/Music-Recommendation-System/assets/76891567/2da3eb8a-c7ba-452b-afe4-92a0b51e209e">
+
