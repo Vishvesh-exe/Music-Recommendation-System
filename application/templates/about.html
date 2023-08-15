@@ -1,0 +1,17 @@
+{% extends "home.html" %}
+{% block about %}
+<div >
+    <h4 id='about'> Music Recommendation System by Sai Vishvesh V.<div class="break"></div><div class="break"></div><div class="break"></div>
+
+        This project involves the creation of a Music recommendation system using Python, with the utilization of libraries such as pandas, sklearn, etc. The project includes a website developed using the Flask framework for Python. The core functionality of the recommendation system is based on extracting specific features from the input music provided by the user.<div class="break"></div>
+        <div class="break"></div>
+        The process of recommendation involves selecting particular features using feature extraction methods, which are accessed through the Spotipy API. These features are then assigned weights using the TF-IDF (Term Frequency-Inverse Document Frequency) algorithm. Subsequently, the system generates appropriate song recommendations based on the user's input. This input could be in the form of a song URL or a playlist.
+        <div class="break"></div><div class="break"></div>
+        The project's development was guided by the resources provided in the following links: </h3>
+        <ul style="font-size: 20px;">
+            <li> <a class="a" href="https://cameronwwatts.medium.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50"> Extracting song data from Spotify’s API in Python </a></li>
+            <li> <a class="a" href="https://medium.com/p/6d755624f787/edit"> EDA and Clustering </a></li>
+            <li> <a class="a" href="https://medium.com/@enjui.chang/part-iii-building-a-song-recommendation-system-with-spotify-cf76b52705e7"> Building a Song Recommendation System with Spotify </a></li>
+        </ul>
+</div>
+{% endblock %}
